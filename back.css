@@ -1,0 +1,9 @@
+.conteudo {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .conteudo > img {
+    height:10%;
+  }
+  
