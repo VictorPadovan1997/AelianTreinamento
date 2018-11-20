@@ -2,9 +2,14 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<!--Faltou informar as metatags do layout base do bootstrap #3-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
-
+		<!--Identação ruim esta dificultando leitura do código #18-->
+		<!--Melhorar nomes dos arquivos #17-->
+		<!--Evitar usar css próprio #16-->
+		<!--Tags fora do body #2-->
+		<!--Tag sobrando #4-->
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,7 +21,7 @@
 </style>
 <body>
 
-<title>Lista de Aparelhos</title>
+<title>Lista de Aparelhos</title> <!--Informar o título das páginas #10 | Informado Fora do Head e dentro do Body-->
 <div class="jumbotron jumbotron-fluid">
 		<div class="container">
 			<h1>Lista de Aparelhos</h1>      
@@ -60,7 +65,7 @@
 	</div>
 </div>
 
- <!--SEARCHBAR PESQUISA-->
+ <!--Informar o campo de filtro. #11 Dentro do Body-->
  <div class="container">
 <div class="row">    
 <div style="margin: 0 auto; width: 600px" >
@@ -77,7 +82,8 @@
 </div>
 </div>
 </div>
-	   <!--FIM DO SEARCHBAR PESQUISA-->
+		 <!--Botão de "Novo" não pode ficar junto a navegação de páginas #9-->
+		 <!--Incorreto uso do "col-*" em table #5-->
 	    <div class="container">
 		<div id="table">
 		  <table class="table">
@@ -108,6 +114,7 @@
 			<td contenteditable="false">3.500</td>
 			<td contenteditable="false">x</td>
 			<td>
+				<!--Usar ferramentas do framework bootstrap #7 Icones-->
 			<span title="Excluir" class="glyphicon glyphicon-remove"></span>
 			<span title="Alterar" class="glyphicon glyphicon-plus"></span>
 			<span title="Visualizar" class="glyphicon glyphicon-search"></span>
@@ -116,7 +123,8 @@
 		  </table>
 		</div>
 </div>
-<div class="text-center"> <!--COMPONENTE BOOTSTRAP 3.0 PARA CENTRALIZAR PAGINAZAÇÃO-->
+<div class="text-center"> <!--Componente de paginação desnecessário #13 | Navegação esta desconectada e sem padrão #8-->
+		<!--Evitar usar style #6  subistituido por class="text-center"-->
 	<nav aria-label="Page navigation">
 	<ul class="pagination">
 	 <li>
